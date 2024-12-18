@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="paBgV9SPzkePGiSR7lqThQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d9dab421-0479-4af2-a667-74aab416b333" CvElementArea="377, 150, 269, 40" CvType="InputBox" DesignTimeRectangle="380, 152, 265, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='merchantTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='merchantTextBox' role='editable text' /&gt;" Guid="375ad1ca-4427-4326-981a-3b72812c5295" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d9dab421-0479-4af2-a667-74aab416b333" CvTextArea="379, 121, 63, 15" CvTextArgument="Merchant" CvType="Text" DesignTimeRectangle="380, 119, 63, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Merchant' role='text' /&gt;&lt;ctrl name='Merchant' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Merchant' role='text' /&gt;&lt;ctrl name='Merchant' role='text' automationid='' check:text='Merchant' /&gt;" Guid="c1898bb6-d19d-4fa2-a76d-17093b07c7a2" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cb9c9fa799bc8a236a5209d1081b649d.png" xmlns="">0TIfBdQMYu0COUGvLpTCzKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

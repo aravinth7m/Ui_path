@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Country",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "0VyxvB4gu0mvTA4gdIFS4A",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/0VyxvB4gu0mvTA4gdIFS4A",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/cvl00dbcdEao2gfI5NsMBw",
+  "Created": "2024-12-09T09:28:22.0336434Z",
+  "Updated": "2024-12-09T09:28:22.0336434Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

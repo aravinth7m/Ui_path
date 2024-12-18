@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0gZ0_LCUA06_xcLwZfq7JA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="664, 177, 305, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 2' role='push button' /&gt;&lt;ctrl role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 2' role='push button' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="42145a33-4608-4f0e-86e1-f88e4c4cf3d5" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="7de742af-3ae1-45d3-8f1c-4b962ee48f43" CvTextArea="664, 153, 56, 17" CvTextArgument="Country" CvType="Text" DesignTimeRectangle="660, 145, 314, 30" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Country' role='column header' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Country' role='column header' automationid='' check:text='Country' /&gt;" Guid="60282869-29c3-4fee-a775-56593d300c07" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="56eab44a7abb9987e0cc40e568b7cc9b.png" xmlns="">0EG_Xy08uh0ejudCC_PcKpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

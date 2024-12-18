@@ -1,0 +1,14 @@
+﻿{
+  "Name": "expense.exe Expense Cla…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "idR7jEqRS0K6Tx344PzYPQ",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/idR7jEqRS0K6Tx344PzYPQ",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/cvl00dbcdEao2gfI5NsMBw",
+  "Created": "2024-12-09T09:43:35.114417Z",
+  "Updated": "2024-12-09T09:43:35.114417Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

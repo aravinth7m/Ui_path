@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5IKUIjOxtUK6jYyy1lORaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvElementArea="52, 150, 283, 41" CvType="InputBox" DesignTimeRectangle="54, 152, 279, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='billNoTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='billNoTextBox' role='editable text' /&gt;" Guid="18116011-8767-4db2-afe6-24f51213e423" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="60, 121, 45, 15" CvTextArgument="Bill No" CvType="Text" DesignTimeRectangle="61, 119, 44, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Bill No' role='text' /&gt;&lt;ctrl name='Bill No' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Bill No' role='text' /&gt;&lt;ctrl name='Bill No' role='text' automationid='' check:text='Bill No' /&gt;" Guid="d250a310-dd04-4eee-981d-aab7018755dd" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="30b45b5d8a0b4386c13d69331bfa3088.png" xmlns="">0i2LR4p3kdk6G7BIOHUglhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

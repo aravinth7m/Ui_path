@@ -1,0 +1,572 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="712.8,5897.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.GSuite.Drive.Models</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Models</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.Word.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="592.0000000000001,5371.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:TriggerScope DisplayName="Trigger Scope" sap:VirtualizedContainerService.HintSize="534.4,5348" sap2010:WorkflowViewState.IdRef="TriggerScope_2" SchedulingMode="Sequential">
+      <ui:TriggerScope.Action>
+        <ActivityAction x:TypeArguments="ui:FileChangeTriggerArgs">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:FileChangeTriggerArgs" Name="args" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="483.2,4889.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="val" />
+              <Variable x:TypeArguments="x:String" Name="valpath" />
+              <Variable x:TypeArguments="x:String" Name="read" />
+              <Variable x:TypeArguments="njl:JObject" Name="objectjson" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="449.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[val]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[System.IO.Path.GetFileName(args.FileChangeInfo.FullPath)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="449.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[valpath]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[args.FileChangeInfo.FullPath]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:ReadTextFile File="{x:Null}" Content="[read]" DisplayName="Read Text File" FileName="[valpath]" sap:VirtualizedContainerService.HintSize="449.6,112.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+            <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[objectjson]" JsonString="[read]" />
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Expense Claim" sap:VirtualizedContainerService.HintSize="449.6,4367.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" ScopeGuid="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Version="V2" WindowResize="Maximize">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,4076.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Expense(1)'" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Right" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="a61a757e-0eed-4f61-b7e5-0b001adfa49d" ContentHash="EGgv5cQs7k6a6b1gS5Zrvw" CvTextArea="44, 56, 88, 25" CvTextArgument="Expense" CvType="Text" DesignTimeRectangle="45, 51, 919, 511" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Expense' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Expense' role='text' automationid='' check:text='Expense' /&gt;" Guid="8b9ec22f-a845-4512-9320-ae19c96ef4c0" InformativeScreenshot="4f603145c0ae0aa5029fa1b99feeed64.png" Reference="PtynNRzrH0y5E5pObX0gwA/I--9ecFWLk6FpXoHdtHx9g" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Expense(2)'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="b13cd477-a76f-4010-ac00-bf9c837a2eec" ContentHash="AUH3qryvQUi9tuT7fsQ85A" CvTextArea="44, 56, 88, 25" CvTextArgument="New" CvType="Text" DesignTimeRectangle="45, 51, 919, 511" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='New' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='New' role='text' automationid='' check:text='close' /&gt;" Guid="481cb213-7a17-4d4b-8c97-fbb7e3ff12ba" ImageBase64="" InformativeScreenshot="d7206dbbb472726e91711e58046f0c16.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/7UqQ0Lbo_ECzAURWlLsV_Q" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="135, 33, 615, 410" Guid="b4146cff-a6ad-4331-90ea-aab03266ac8b" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Bill no" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;bill no&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" ContentHash="5IKUIjOxtUK6jYyy1lORaQ" CvElementArea="52, 150, 283, 41" CvType="InputBox" DesignTimeRectangle="54, 152, 279, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='billNoTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='billNoTextBox' role='editable text' /&gt;" Guid="18116011-8767-4db2-afe6-24f51213e423" InformativeScreenshot="30b45b5d8a0b4386c13d69331bfa3088.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/ZdNQw4wlo0K6ayj27KM3YA" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="60, 121, 45, 15" CvTextArgument="Bill No" CvType="Text" DesignTimeRectangle="61, 119, 44, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Bill No' role='text' /&gt;&lt;ctrl name='Bill No' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Bill No' role='text' /&gt;&lt;ctrl name='Bill No' role='text' automationid='' check:text='Bill No' /&gt;" Guid="d250a310-dd04-4eee-981d-aab7018755dd" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Merchant" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;merchant&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="d9dab421-0479-4af2-a667-74aab416b333" ContentHash="paBgV9SPzkePGiSR7lqThQ" CvElementArea="377, 150, 269, 40" CvType="InputBox" DesignTimeRectangle="380, 152, 265, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='merchantTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='merchantTextBox' role='editable text' /&gt;" Guid="375ad1ca-4427-4326-981a-3b72812c5295" InformativeScreenshot="cb9c9fa799bc8a236a5209d1081b649d.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/52vt_HIKAEGYDaI4j_e50g" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="d9dab421-0479-4af2-a667-74aab416b333" CvTextArea="379, 121, 63, 15" CvTextArgument="Merchant" CvType="Text" DesignTimeRectangle="380, 119, 63, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Merchant' role='text' /&gt;&lt;ctrl name='Merchant' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Merchant' role='text' /&gt;&lt;ctrl name='Merchant' role='text' automationid='' check:text='Merchant' /&gt;" Guid="c1898bb6-d19d-4fa2-a76d-17093b07c7a2" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Date" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;date&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" ContentHash="Q4lND3X7K0SQoURmB4fojg" CvElementArea="692, 150, 277, 40" CvType="InputBox" DesignTimeRectangle="695, 152, 273, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='dateTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='dateTextBox' role='editable text' /&gt;" Guid="e447eaaf-4c3f-4621-9d78-708d233a2afe" InformativeScreenshot="6c5a0076549383bb05b2b1445c56adfe.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/Hyxr4NOBnkuBfgaBrqBtJA" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="698, 121, 32, 15" CvTextArgument="Date" CvType="Text" DesignTimeRectangle="699, 119, 31, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Date' role='text' /&gt;&lt;ctrl name='Date' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Date' role='text' /&gt;&lt;ctrl name='Date' role='text' automationid='' check:text='Date' /&gt;" Guid="1b81166c-9aaf-453d-a236-cdd07c135933" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Category" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;category&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" ContentHash="sztUZtnS3ku6Ydpk-DP4ww" CvElementArea="56, 258, 274, 41" CvType="InputBox" DesignTimeRectangle="64, 268, 243, 29" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='PART_EditableTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='PART_EditableTextBox' role='editable text' /&gt;" Guid="53964840-dfae-419b-995f-e1e29dc102ea" InformativeScreenshot="c7b01215512ec21aca2117e6d218ade7.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/J0qXgf9jJkmhf-jfudGuLw" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="59, 230, 62, 18" CvTextArgument="Category" CvType="Text" DesignTimeRectangle="61, 228, 60, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Category' role='text' /&gt;&lt;ctrl name='Category' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Category' role='text' /&gt;&lt;ctrl name='Category' role='text' automationid='' check:text='Category' /&gt;" Guid="78713e4d-ed76-4c01-963c-529e3f80492c" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Expense" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;expense&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" ContentHash="zD4xNncLMU-ptb6gA2DBqg" CvElementArea="379, 257, 265, 42" CvType="InputBox" DesignTimeRectangle="382, 260, 261, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='currencyTypeTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='currencyTypeTextBox' role='editable text' /&gt;" Guid="d9806c0a-7861-4bee-9099-d5ea7941822a" InformativeScreenshot="a2c1db884de27d9bff984e5d567d8674.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/Cac3atrJG0Gc4jQdF2iiww" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="379, 230, 152, 18" CvTextArgument="Expense Currency Type" CvType="Text" DesignTimeRectangle="380, 228, 152, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Expense Currency Type' role='text' /&gt;&lt;ctrl name='Expense Currency Type' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Expense Currency Type' role='text' /&gt;&lt;ctrl name='Expense Currency Type' role='text' automationid='' check:text='Expense Currency Type' /&gt;" Guid="96b27fbd-7e9b-46d9-83ce-b18697160ad4" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Total'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;total&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" ContentHash="-SIwNCXe9Eq5MDF7pUmwtw" CvElementArea="697, 258, 266, 41" CvType="InputBox" DesignTimeRectangle="700, 260, 263, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='totalTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='totalTextBox' role='editable text' /&gt;" Guid="f31eceb7-dede-4ae0-a6ea-2b84a3a2c40b" InformativeScreenshot="c91185a1851b888d5077867686e3f498.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/Ehl4_FYUGEKybtEMtCiD_g" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="698, 230, 32, 15" CvTextArgument="Total" CvType="Text" DesignTimeRectangle="699, 228, 32, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Total' role='text' /&gt;&lt;ctrl name='Total' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Total' role='text' /&gt;&lt;ctrl name='Total' role='text' automationid='' check:text='Total' /&gt;" Guid="ede4da6c-8133-4662-8648-9c8d80329534" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'table'" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="fdadfcb2-616b-4a4d-b709-a778aa7f9307" ContentHash="ZliVDHM_r0aZrPvdtRsQgA" CvElementArea="62, 102, 47, 27" CvTextArea="66, 108, 35, 15" CvTextArgument="table" CvType="Button" DesignTimeRectangle="68, 106, 33, 19" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='table' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='table' role='text' automationid='' check:text='table' /&gt;" Guid="1c194e05-b52a-46ec-89f0-908ad83b8b0e" InformativeScreenshot="4e8e0f1ed10e2954a0ac4ae6be955726.png" Reference="PtynNRzrH0y5E5pObX0gwA/Bf1WzJqJ20Gtl3ZS1KXlog" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="382.4,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="S.no" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;S.no&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable ContentHash="6C9XmGoY5Uaz5COZkBosPQ" DesignTimeRectangle="38, 177, 617, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 0' role='push button' /&gt;&lt;ctrl role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 0' role='push button' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="31f64609-39eb-4f1b-8267-9ddde4852fce" InformativeScreenshot="d09463a0eb5f56afa246776c55d89929.png" Reference="PtynNRzrH0y5E5pObX0gwA/wVxDwvU1tE6xMklom7COJw" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="92fe6a33-9b62-4c61-8be1-f927c5dbec36" CvTextArea="39, 154, 30, 13" CvTextArgument="S.no" CvType="Text" DesignTimeRectangle="40, 150, 29, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='S.no' role='column header' /&gt;&lt;ctrl name='S.no' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='S.no' role='column header' /&gt;&lt;ctrl name='S.no' role='text' automationid='' check:text='S.no' /&gt;" Guid="e317ae08-3be5-4c83-8762-c8c60ae555c8" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="Name" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;Name&quot;).ToString]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable ContentHash="gX6pFXVH-kmaP47gph1VGw" DesignTimeRectangle="351, 177, 304, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 1' role='push button' /&gt;&lt;ctrl role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 1' role='push button' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="c629fdc3-9c06-4483-aed7-440e5928cb10" InformativeScreenshot="56d4988e4bd4238681f476db0f41795f.png" Reference="PtynNRzrH0y5E5pObX0gwA/-A4dI5CflEqUpaM-SluF3g" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="353, 150, 40, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Name' role='column header' /&gt;&lt;ctrl name='Name' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Name' role='column header' /&gt;&lt;ctrl name='Name' role='text' automationid='' check:text='Name' /&gt;" Guid="1185d926-d961-4bd0-b3c0-abe312d25150" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="Type Into 'Country'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;Country&quot;).ToString]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable ContentHash="Juy0eNyznUaCm4SNsZxFaw" DesignTimeRectangle="664, 177, 305, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 2' role='push button' /&gt;&lt;ctrl role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Expense.MainWindow+GridRow' role='list item' /&gt;&lt;ctrl name='Item: Expense.MainWindow+GridRow, Column Display Index: 2' role='push button' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="42145a33-4608-4f0e-86e1-f88e4c4cf3d5" InformativeScreenshot="632058377f06dffcc34a2c7f473fa9fa.png" Reference="PtynNRzrH0y5E5pObX0gwA/yA5SsewTgEOZxGbmemqo1g" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="2a8da614-2639-45a9-beba-a4e40305a035" CvTextArea="664, 153, 55, 17" CvTextArgument="Country" CvType="Text" DesignTimeRectangle="667, 150, 52, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Country' role='column header' /&gt;&lt;ctrl name='Country' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='table' role='page tab' /&gt;&lt;ctrl name='Country' role='column header' /&gt;&lt;ctrl name='Country' role='text' automationid='' check:text='Country' /&gt;" Guid="6177847e-784c-4f8c-b952-9fbb4b5bf4d2" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable ContentHash="Rd4CK_ZoR0utCInmNFF7lA" DesignTimeRectangle="844, 350, 223, 67" DesignTimeScaleFactor="1.25" Guid="6f50f9b7-1865-4491-8993-95b0a3c44fe9" ImageBase64="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" InformativeScreenshot="64428a69a8195bf4efa0ef643ee74efd.png" Reference="PtynNRzrH0y5E5pObX0gwA/T_2lMOcb7E26Rb0dSrDEVA" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="77ddb589-7d14-447a-9767-dc751cc0dcc5" CvElementArea="411, 350, 1127, 52" CvTextArea="947, 366, 52, 20" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="950, 361, 49, 29" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Save' role='push button' /&gt;&lt;ctrl name='Save' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Save' role='push button' /&gt;&lt;ctrl name='Save' role='text' automationid='' check:text='Save' /&gt;" Guid="a6a32291-91ba-49a1-8cb1-d2b989e1902a" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Expense'" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Right" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="0fc7428c-e7c5-4ffc-bdee-c5b66aa1a113" ContentHash="xQIaFLaFuEOrjiwVIcTSSw" CvTextArea="44, 56, 88, 25" CvTextArgument="Expense" CvType="Text" DesignTimeRectangle="45, 51, 1849, 485" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Expense' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Expense' role='text' automationid='' check:text='Expense' /&gt;" Guid="8a123f25-3883-4ae1-ba13-58d1fb23ee81" InformativeScreenshot="b981ad1bd1191ca3f2c0912b8377476a.png" Reference="PtynNRzrH0y5E5pObX0gwA/tJym_3sGyECtWtYRVEZX9A" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Expense(2)'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="b13cd477-a76f-4010-ac00-bf9c837a2eec" ContentHash="HL57fsiiSEOpR6-kzyjjiQ" CvTextArea="44, 56, 88, 25" CvTextArgument="New" CvType="Text" DesignTimeRectangle="45, 51, 919, 511" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='close' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='close' role='text' automationid='' check:text='close' /&gt;" Guid="481cb213-7a17-4d4b-8c97-fbb7e3ff12ba" ImageBase64="" InformativeScreenshot="345e2014a31fb0646ba9b3329db82467.png" IsResponsive="True" Reference="PtynNRzrH0y5E5pObX0gwA/MSaEpnBdAUWL9UGbPsXtDA" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="135, 33, 615, 410" Guid="b4146cff-a6ad-4331-90ea-aab03266ac8b" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="382.4,105.6" sap2010:WorkflowViewState.IdRef="DeleteFileX_2" Path="[valpath]" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="160, 160, 1000, 563" ContentHash="64W8pXDYIEGQOcoYoU4itA" FilePath="C:\Users\Aravinth\Desktop\Exponse formdatetimeee\expense.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKoSURBVFhH7dhbT1NBEMDxPtn7Fb6kAqK2cmgVW0TEO6JJP0A/gvFRUUupoiIKIgpWnyUmvPdlnJ2ze7pbZz1mDaQmZ5N/qiEZfpnhBWLRi170Ql5tplKf9SpHVa8Co5awxbgvnHSdTof9FIsbCeCfImC/3x/JIuC/xgJbrRY0m80g8X/960vdnzD+8DuMP/hGja1g93tUafkrlO4dyPahdHcfine+QAkr3v4Mi+0fxqyw7+W0QQKt9GAcG0PQ2LICYQiiCOSjirdEe1C8uQeFG5/YmbbcgISSmyIQfgZbwjSQQlFLu1C4vsvOtMUCw9YewP4a9RHyosUdyF/bMWYdy4n90w1QBUJpIJVEFSQsv7ANuasf2Jm23IDapoqEGmxKnFBtSpSTKGr+PcXNtMUCw9ZubEqdLkBtB5sKUI0tKiuqbxmzjuXEv6EWRBI0jEJQrv4OslewuU383GRn2nICqp+nACVPp2BZBaIQhbDM5beQxTKX3rAzbbHAsLUbKLmpHG5KBxFqzgeJ0rXXkMHS1Q1jVlhOG1SnEyD/fArkb0pHUYhKz2LeK0h5L9mZtpyA+pay2pYyNdEwaoNQqRlRF1IXu+xMWyww7MT6ltSmMlVzU+khVKqyTiXL68assJw2KDY1fDp1PkIJkEQlCdWB5AXRGiTPr7EzbTkBCaVgtCUTlcIt+SgEyRLn2n7TbXamLRYYdmL/dBJV0TalbUmkoxLTLyBx9jnEp54Zs8Jy2uDg58k8XSJAIYZAAxQ1uQrxiVV2pi0nIIsSICyOIA516sxTv9NP2Jm23IA6Sm4pQE1iCKI0lB4305YTcP5xjzYVn0LYMGqCR6kajw7YmbacgCfZ/wGc9cpHh4fmb1ujkDAR0PPKDfGPUUssTtjk37iiF73o8S8W+wWSe/OjJhjKtAAAAABJRU5ErkJggg==" InformativeScreenshot="20a332da1e82b0dbe428e748baf4041a.png" Reference="PtynNRzrH0y5E5pObX0gwA/cvl00dbcdEao2gfI5NsMBw" Selector="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" Title="Expense Claim" Version="V2" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:TriggerScope.Action>
+      <ui:TriggerScope.Triggers>
+        <scg:List x:TypeArguments="Activity" Capacity="4">
+          <ui:FileChangeTriggerV3 IncludeSubdirectories="{x:Null}" ChangeType="Created" DisplayName="File Change Trigger" Enabled="True" FileNameFilter="*.json" sap:VirtualizedContainerService.HintSize="499.2,228" sap2010:WorkflowViewState.IdRef="FileChangeTriggerV3_2" NotifyFilters="FileName" Path="C:\Users\Aravinth\Documents\UiPath\jso-main-backup\form" SchedulingMode="Sequential" TriggerId="5d1e3636-7031-43bf-92fc-3c8dd4bfb2f1" />
+        </scg:List>
+      </ui:TriggerScope.Triggers>
+    </ui:TriggerScope>
+  </Sequence>
+</Activity>

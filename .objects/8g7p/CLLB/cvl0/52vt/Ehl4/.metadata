@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Total",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Ehl4_FYUGEKybtEMtCiD_g",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/Ehl4_FYUGEKybtEMtCiD_g",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/52vt_HIKAEGYDaI4j_e50g",
+  "Created": "2024-12-04T12:06:39.1981313Z",
+  "Updated": "2024-12-04T12:06:39.1981313Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

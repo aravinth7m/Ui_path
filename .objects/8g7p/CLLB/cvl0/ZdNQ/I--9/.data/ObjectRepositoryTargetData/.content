@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EGgv5cQs7k6a6b1gS5Zrvw" Reference="PtynNRzrH0y5E5pObX0gwA/9rU8KSC0TEi9QrCQdHBgsw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a61a757e-0eed-4f61-b7e5-0b001adfa49d" CvTextArea="44, 56, 88, 25" CvTextArgument="Expense" CvType="Text" DesignTimeRectangle="45, 51, 919, 511" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Expense' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Expense' role='text' automationid='' check:text='Expense' /&gt;" Guid="8b9ec22f-a845-4512-9320-ae19c96ef4c0" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4f603145c0ae0aa5029fa1b99feeed64.png" xmlns="">03XQGYgnyp0u6O4uu0vOqJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

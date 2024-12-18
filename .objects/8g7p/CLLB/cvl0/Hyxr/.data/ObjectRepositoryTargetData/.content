@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q4lND3X7K0SQoURmB4fojg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvElementArea="692, 150, 277, 40" CvType="InputBox" DesignTimeRectangle="695, 152, 273, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='dateTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='dateTextBox' role='editable text' /&gt;" Guid="e447eaaf-4c3f-4621-9d78-708d233a2afe" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="698, 121, 32, 15" CvTextArgument="Date" CvType="Text" DesignTimeRectangle="699, 119, 31, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Date' role='text' /&gt;&lt;ctrl name='Date' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Date' role='text' /&gt;&lt;ctrl name='Date' role='text' automationid='' check:text='Date' /&gt;" Guid="1b81166c-9aaf-453d-a236-cdd07c135933" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6c5a0076549383bb05b2b1445c56adfe.png" xmlns="">02YhJhciJ90C_F32EuFDbNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

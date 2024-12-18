@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Expense(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "I--9ecFWLk6FpXoHdtHx9g",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/I--9ecFWLk6FpXoHdtHx9g",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/ZdNQw4wlo0K6ayj27KM3YA",
+  "Created": "2024-12-04T12:06:58.0360477Z",
+  "Updated": "2024-12-04T12:06:58.0360477Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Expense",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Cac3atrJG0Gc4jQdF2iiww",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/Cac3atrJG0Gc4jQdF2iiww",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/cvl00dbcdEao2gfI5NsMBw",
+  "Created": "2024-12-03T07:34:59.5781125Z",
+  "Updated": "2024-12-03T07:34:59.5781125Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

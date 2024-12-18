@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Save",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "T_2lMOcb7E26Rb0dSrDEVA",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/T_2lMOcb7E26Rb0dSrDEVA",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/cvl00dbcdEao2gfI5NsMBw",
+  "Created": "2024-12-03T07:39:59.0388483Z",
+  "Updated": "2024-12-03T07:40:25.2509494Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zD4xNncLMU-ptb6gA2DBqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvElementArea="379, 257, 265, 42" CvType="InputBox" DesignTimeRectangle="382, 260, 261, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='currencyTypeTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='currencyTypeTextBox' role='editable text' /&gt;" Guid="d9806c0a-7861-4bee-9099-d5ea7941822a" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="379, 230, 152, 18" CvTextArgument="Expense Currency Type" CvType="Text" DesignTimeRectangle="380, 228, 152, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Expense Currency Type' role='text' /&gt;&lt;ctrl name='Expense Currency Type' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Expense Currency Type' role='text' /&gt;&lt;ctrl name='Expense Currency Type' role='text' automationid='' check:text='Expense Currency Type' /&gt;" Guid="96b27fbd-7e9b-46d9-83ce-b18697160ad4" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a2c1db884de27d9bff984e5d567d8674.png" xmlns="">0A51jVAI4JEudPkskZajqhA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

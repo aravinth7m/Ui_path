@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Merchant",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NdlepZ7sqUeU2VXDgz2rXg",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/NdlepZ7sqUeU2VXDgz2rXg",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/L7woZeVg2EaSGRCksm0vPw",
+  "Created": "2024-12-03T07:45:34.9143556Z",
+  "Updated": "2024-12-03T07:45:34.9143556Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

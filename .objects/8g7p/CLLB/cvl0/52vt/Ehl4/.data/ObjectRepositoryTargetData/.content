@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-SIwNCXe9Eq5MDF7pUmwtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvElementArea="697, 258, 266, 41" CvType="InputBox" DesignTimeRectangle="700, 260, 263, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='totalTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='totalTextBox' role='editable text' /&gt;" Guid="f31eceb7-dede-4ae0-a6ea-2b84a3a2c40b" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d7f0a0d2-9bef-4d1c-8a05-c1ec4762108f" CvTextArea="698, 230, 32, 15" CvTextArgument="Total" CvType="Text" DesignTimeRectangle="699, 228, 32, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Total' role='text' /&gt;&lt;ctrl name='Total' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Total' role='text' /&gt;&lt;ctrl name='Total' role='text' automationid='' check:text='Total' /&gt;" Guid="ede4da6c-8133-4662-8648-9c8d80329534" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c91185a1851b888d5077867686e3f498.png" xmlns="">0dTtUij1O7UezOB9emb84EQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
